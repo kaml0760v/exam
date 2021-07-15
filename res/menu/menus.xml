@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/dashboard"
+        android:title="Dashboard"/>
+    <item android:id="@+id/profile"
+        android:title="Profile"/>
+    <item android:id="@+id/customers"
+        android:title="Customers"/>
+    <item android:id="@+id/reports"
+        android:title="Reports"/>
+    <item android:id="@+id/incomeexpese"
+        android:title="Income/Expense"/>
+    <item android:id="@+id/Address"
+        android:title="Get Address"/>
+    <item android:id="@+id/setting"
+        android:title="Settings"/>
+    <item android:id="@+id/logout"
+        android:title="Logout"/>
+</menu>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory android:title="Notification Setting">
+        <SwitchPreference android:key="notifications"
+            android:defaultValue="true"
+            android:title="Application notifications"/>
+        <SwitchPreference android:key="Sms notifications"
+            android:defaultValue="true"
+            android:title="Enable SMS notifications"/>
+<!--        <RingtonePreference-->
+<!--            android:defaultValue="content://settings/system/notification_sound"-->
+<!--            android:dependency="notifications_new_message"-->
+<!--            android:key="key_notifications_new_message_ringtone"-->
+<!--            android:ringtoneType="notification"-->
+<!--            android:summary="Choose notification sound"-->
+<!--            android:title="Notifications" />-->
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="key_vibrate"
+            android:summary="Vibrate on new notification"
+            android:title="Vibrate" />
+        <SeekBarPreference
+            android:key="seekbar_preference"
+            android:title="Volume"
+            android:summary="50%"/>
+
+    </PreferenceCategory>
+<!--    <Preference-->
+<!--        app:key="feedback"-->
+<!--        app:title="Send feedback"-->
+<!--        app:summary="Report technical issues or suggest new features"/>-->
+</PreferenceScreen>
